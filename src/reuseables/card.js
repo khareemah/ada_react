@@ -13,9 +13,9 @@ const Card = ({ name, profilePic, handleDelete, id, setShowModal }) => {
         <button className="profileBtn" onClick={() => openModal(id)}>
           Click to view profile
         </button>
-        <div className="close-btn" onClick={() => handleDelete(id)}>
+        <button className="close-btn" onClick={() => handleDelete(id)}>
           delete
-        </div>
+        </button>
       </footer>
     </article>
   );
